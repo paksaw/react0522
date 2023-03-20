@@ -278,7 +278,7 @@ function Home() {
           )}
 
           {/* 세번쨰 */}
-          {/* {loadingTopRated ? (
+          {loadingTopRated ? (
             <Loader>...loading</Loader>
           ) : (
             <TopRateSlider>
@@ -314,10 +314,10 @@ function Home() {
                 </Row>
               </AnimatePresence>
             </TopRateSlider>
-          )} */}
+          )}
 
           {/* 네번째 */}
-          {/* {loadingUpComming ? (
+          {loadingUpComming ? (
             <Loader>...loading</Loader>
           ) : (
             <UpCommingSlider>
@@ -353,7 +353,7 @@ function Home() {
                 </Row>
               </AnimatePresence>
             </UpCommingSlider>
-          )} */}
+          )}
         </>
       )}
       <AnimatePresence>
