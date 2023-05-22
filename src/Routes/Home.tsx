@@ -195,7 +195,7 @@ function Home() {
   };
 
   const [
-    { isLoading: loadingLatest, data: latestData },
+    { isLoading: loadingLatest,  },
     { isLoading: loadingTopRated, data: topRateData },
     { isLoading: loadingUpComming, data: upCommingData },
   ] = useMultipleQuery();

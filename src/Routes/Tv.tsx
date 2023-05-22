@@ -198,7 +198,7 @@ function Tv() {
   };
 
   const [
-    { isLoading: loadingTvLatest, data: TvLatestData },
+    { isLoading: loadingTvLatest,  },
     { isLoading: loadingAiring_Today, data: Airing_TodayData },
     { isLoading: loadingPopular, data: PopularData },
     { isLoading: loadingTvTopRated, data: TvTopRatedData },
